@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VamVar's Chatter Box</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #00b4d8, #0077b6);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            font-size: 2rem;
+            color: #0077b6;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #00b4d8;
+            color: white;
+            font-size: 1.2rem;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: #0077b6;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .footer-logo {
+            max-width: 50px;
+            margin-bottom: 10px;
+        }
+
+        /* Adding a simple hover effect to the chat icon */
+        #tawk-chat-widget {
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        #tawk-chat-widget:hover {
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Vamsi's Personal Website</h1>
+        <p>Let's connect and share ideas!</p>
+    </header>
+
+    <div class="content">
+        <h2>About Me</h2>
+        <p>Hello! I'm Vamsi Reddy, a passionate Oracle DBA with a keen interest in cloud technologies like AWS and data replication tools like GoldenGate. I'm always looking for new challenges to grow my skillset and connect with like-minded individuals.</p>
+        <p>Feel free to reach out to me through the chat below. I'm always happy to help, discuss new projects, or just connect!</p>
+
+        <a href="mailto:vamsi@example.com" class="cta-button">Contact Me</a>
+    </div>
+
+    <footer>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Logo_of_Wikipedia.svg/2560px-Logo_of_Wikipedia.svg.png" alt="Vamsi Logo" class="footer-logo">
+        <p>&copy; 2025 Vamsi Reddy. All rights reserved.</p>
+    </footer>
+
+    <!-- Start of Tawk.to Script -->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6776b53faf5bfec1dbe5db32/1igjr80uv';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!-- End of Tawk.to Script -->
+
+</body>
+</html>
